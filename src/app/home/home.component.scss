@@ -1,0 +1,70 @@
+.hero {
+    text-align: center;
+    background-image: url(https://p4.wallpaperbetter.com/wallpaper/863/288/5/gnomes-wallpaper-preview.jpg);
+    background-size: cover;
+    background-position: center;
+    color: #fff;
+    padding: 100px 0;
+    h1 {
+        font-size: 36px;
+        margin-bottom: 20px;
+    }
+    p {
+        font-size: 18px;
+        max-width: 800px;
+        margin: 0 auto;
+    }
+}
+
+.products {
+    background-image: url(https://wallpaperaccess.com/full/441741.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-right: 40px;
+    h2 {
+        text-align: center;
+        font-size: 24px;
+        margin-bottom: 50px;
+        color: #fff;
+        padding-left: 14px;
+    }
+    .product {
+        width: 30%;
+        text-align: center;
+        margin-bottom: 50px;
+        color: #fff;
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        h3 {
+            font-size: 20px;
+            margin: 20px 0 10px;
+        }
+        p {
+            font-size: 16px;
+            max-width: 200px;
+            margin: 0 auto;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            margin-top: 10px;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            &:hover {
+                background-color: #ccc;
+            }
+        }
+    }
+}
