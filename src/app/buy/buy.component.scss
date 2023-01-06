@@ -1,0 +1,46 @@
+.products {
+    background-image: url(https://wallpaperaccess.com/full/441741.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 20px;
+    padding-right: 20px;
+    .product {
+        width: 15%;
+        text-align: center;
+        margin-bottom: 50px;
+        color: #fff;
+        img {
+            width: 100%;
+            height: auto;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+        }
+        h3 {
+            font-size: 20px;
+            margin: 20px 0 10px;
+        }
+        p {
+            font-size: 16px;
+            max-width: 200px;
+            margin: 0 auto;
+        }
+        button {
+            padding: 10px 20px;
+            border: none;
+            margin-top: 10px;
+            border-radius: 5px;
+            background-color: #333;
+            color: #fff;
+            font-size: 16px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            &:hover {
+                background-color: #ccc;
+            }
+        }
+    }
+}
